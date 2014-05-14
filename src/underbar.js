@@ -42,7 +42,7 @@ var _ = {};
     if(n === undefined){
       return array[array.length - 1];
     }
-    return n > array.length ? array : array.slice(array.length - n, array[array.length - 1]);
+    return n > array.length ? array : array.slice(array.length - n);
   };
 
   // Call iterator(value, key, collection) for each element of collection.
